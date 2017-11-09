@@ -4,40 +4,67 @@ font-family : arial;
 font-weight : normal; 
 } 
 H1 { 
-font-size : 36pt; 
+font-size : 32pt; 
 font-family : arial; 
-text-decoration : underline; 
-text-align : center; 
-background-color : #9598A1;
-color : #3B3F42; 
+text-decoration : none; 
+background-color: #44e0c6;
+border-style: solid;
+border-color: black;
+color : #5f8a38;
 } 
 H2 { 
-font-size : 24pt; 
+font-size : 22pt; 
 font-family : arial; 
 text-decoration : underline; 
-text-align : left; 
 color : #3F4952; 
 } 
 H3 { 
-font-size : 24pt; 
+font-size : 20pt; 
 font-family : arial; 
 text-decoration : underline; 
-text-align : center; 
 color : #3B3F42;
 }
-H4 { 
-font-size : 16pt; 
-font-family : arial; 
-text-align : center; 
-background-color : #cbccd1;
-color :  #40474D;
-} 
-BODY { 
-background-color : #bebfc5; 
-font-family : arial; 
-color : black; 
-} 
+body, html {
+height:100%;padding:0px;margin:0px
+}
+.tope {
+background-color:#3F51A0;
+height:350px;
+width:100%;
+position:absolute;
+top:0px;
+}
+.bloqueD {
+background-color:#498AE4;
+position:absolute;
+width:45%;
+top: 350px;
+right: 0;
+width: 50%;
+height: 1000px;
+border: 3px solid #73AD21;
+}
+.bloqueI {
+background-color:#539FCB;
+position:absolute;
+top: 350px;
+float:left;
+width: 50%;
+height: 1000px;
+}
+.base {
+color: #blue;
+background-color:#30DFD7;
+height:50px;
+width:100%;
+position:fixed;
+bottom:0px;
+text-align:center;
+font-size:17px;
+font-family : arial;
+}
 table, th, td {
+margin:auto;
 border: 1px solid black;
 font-size : 12pt; 
 font-family : arial; 
@@ -46,8 +73,41 @@ text-align : center;
 background-color : #cdd9e2;
 color :  #5f85a2;
 }
-
 th {
 background-color: #4CAF50;
 color: white;
 } 
+img{
+display:block;
+margin:auto;
+}
+.centrado { 
+text-align:center; 
+}
+.izquierda { 
+text-align:left; 
+}
+.derecha { 
+text-align:right; 
+}	
+a:link {
+	color: red;
+	text-decoration:none;
+	font-size: 24px;
+	font-family: arial;
+	text-align: center;
+	display:block;
+}
+/* visited link */
+a:visited {color: green;}
+/* mouse over link */
+a:hover {color: yellow;}
+/* selected link */
+a:active {color: blue;}
+
+p.cambiafondo {
+width:100%;
+
+font-weight:bold;
+
+}
