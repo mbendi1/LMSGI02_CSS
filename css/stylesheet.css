@@ -79,13 +79,18 @@ font-size : 12pt;
 font-family : arial; 
 font-weight : normal; 
 text-align : center; 
-background-color : #cdd9e2;
-color :  #5f85a2;
+color :  black;
 }
 th {
 background-color: #4CAF50;
 color: white;
-} 
+}
+tr:nth-child(even) {
+background-color: #5f85a2;
+}	
+tr:nth-child(odd) {
+background-color: #a25f85;
+}	
 img{
 display:block;
 margin:auto;
