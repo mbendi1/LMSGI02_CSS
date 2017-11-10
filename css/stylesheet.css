@@ -7,6 +7,7 @@ H1 {
 font-size : 32pt; 
 font-family : arial; 
 text-decoration : none; 
+text-align: center;
 background-color: #44e0c6;
 border-style: solid;
 border-color: black;
@@ -15,20 +16,29 @@ color : #5f8a38;
 H2 { 
 font-size : 22pt; 
 font-family : arial; 
+text-align: center;
 text-decoration : underline; 
 color : #3F4952; 
 } 
 H3 { 
 font-size : 20pt; 
 font-family : arial; 
+text-align: center;
 text-decoration : underline; 
 color : #3B3F42;
+}
+H4 { 
+font-size : 16pt; 
+font-family : arial; 
+text-decoration : none; 
+color : white;
 }
 body, html {
 height:100%;padding:0px;margin:0px
 }
 .tope {
 background-color:#3F51A0;
+background-image: url(../img/banner01.png);
 height:350px;
 width:100%;
 position:absolute;
@@ -41,8 +51,7 @@ width:45%;
 top: 350px;
 right: 0;
 width: 50%;
-height: 1000px;
-border: 3px solid #73AD21;
+height: 1100px;
 }
 .bloqueI {
 background-color:#539FCB;
@@ -50,16 +59,16 @@ position:absolute;
 top: 350px;
 float:left;
 width: 50%;
-height: 1000px;
+height: 1100px;
 }
 .base {
-color: #blue;
+color: blue;
 background-color:#30DFD7;
 height:50px;
 width:100%;
 position:fixed;
 bottom:0px;
-text-align:center;
+text-align:left;
 font-size:17px;
 font-family : arial;
 }
@@ -104,10 +113,3 @@ a:visited {color: green;}
 a:hover {color: yellow;}
 /* selected link */
 a:active {color: blue;}
-
-p.cambiafondo {
-width:100%;
-
-font-weight:bold;
-
-}
