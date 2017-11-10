@@ -10,3 +10,4 @@ Partiendo de la página anterior en html, se modifica lo siguiente:
     - Dos columnas de contenido; en una se ha ubicado la tabla; y en la otra los enlaces web y las imágenes.
     - Un pié a lo ancho de la página que permanece siempre visible.
 
+Finalmente se han validado html y css sin errores.
